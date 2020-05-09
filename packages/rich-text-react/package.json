@@ -7,6 +7,10 @@
     "dist",
     "src"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/plateoapp/rich-text.git"
+  },
   "engines": {
     "node": ">=10"
   },
@@ -48,7 +52,7 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
-    "@plateo/rich-text-types": "^1.0.0"
+    "@plateo/rich-text-types": "^0.1.2"
   },
   "gitHead": "5b85b5e16e5a837ff07868b04c79faee549e16d8"
 }
