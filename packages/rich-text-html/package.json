@@ -1,5 +1,5 @@
 {
-  "version": "0.1.2",
+  "version": "0.1.3",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -46,7 +46,7 @@
     "typescript": "^3.8.3"
   },
   "dependencies": {
-    "@plateo/rich-text-types": "^0.1.2",
+    "@plateo/rich-text-types": "^0.1.3",
     "escape-html": "^1.0.3"
   },
   "gitHead": "5b85b5e16e5a837ff07868b04c79faee549e16d8"
