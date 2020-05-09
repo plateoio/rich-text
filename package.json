@@ -1,0 +1,19 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run build",
+    "lint": "lerna run lint",
+    "postinstall": "lerna bootstrap --hoist --progress --no-ci",
+    "publish": "lerna publish",
+    "release": "lerna run release",
+    "start": "lerna run start",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  }
+}

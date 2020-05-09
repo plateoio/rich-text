@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`convertDocumentToReactComponents renders asset link 1`] = `
+Array [
+  <span>
+    image
+     id: 
+    070fec38-1038-4b2d-ae67-06208c2dee50
+  </span>,
+]
+`;
+
+exports[`convertDocumentToReactComponents renders block quote 1`] = `
+Array [
+  <blockquote>
+    some quote
+  </blockquote>,
+]
+`;
+
+exports[`convertDocumentToReactComponents renders bulleted list 1`] = `
+Array [
+  <ul>
+    <li>
+      some text
+    </li>
+  </ul>,
+]
+`;
+
+exports[`convertDocumentToReactComponents renders document with a custom mark renderer 1`] = `
+Array [
+  <p>
+    <strong>
+      Nice Paragraph
+    </strong>
+  </p>,
+]
+`;
+
+exports[`convertDocumentToReactComponents renders document with a custom node renderer 1`] = `
+Array [
+  <div>
+    <strong>
+      Nice Paragraph
+    </strong>
+  </div>,
+]
+`;
+
+exports[`convertDocumentToReactComponents renders document with a custom node renderer 2`] = `
+Array [
+  <div>
+    <u>
+      Nice Paragraph
+    </u>
+  </div>,
+]
+`;
+
+exports[`convertDocumentToReactComponents renders document with default mark renderer 1`] = `
+Array [
+  <p>
+    <strong>
+      Nice Paragraph
+    </strong>
+  </p>,
+  <p>
+    <i>
+      Nice Paragraph
+    </i>
+  </p>,
+  <p>
+    <u>
+      Nice Paragraph
+    </u>
+  </p>,
+  <p>
+    <code>
+      Nice Paragraph
+    </code>
+  </p>,
+]
+`;
+
+exports[`convertDocumentToReactComponents renders document with default node renderer 1`] = `
+Array [
+  <h1>
+    I work
+  </h1>,
+]
+`;
+
+exports[`convertDocumentToReactComponents renders document with default node renderer 2`] = `
+Array [
+  <p>
+    Nice Paragraph
+  </p>,
+]
+`;
+
+exports[`convertDocumentToReactComponents renders link 1`] = `
+Array [
+  <p>
+    on this page: 
+    <a
+      href="https://google.com"
+    >
+      Google
+    </a>
+     some text
+  </p>,
+]
+`;
+
+exports[`convertDocumentToReactComponents renders numbered list 1`] = `
+Array [
+  <ol>
+    <li>
+      some text
+    </li>
+  </ol>,
+]
+`;
