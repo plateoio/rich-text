@@ -34,6 +34,9 @@
   "name": "@plateo/rich-text-react",
   "author": "Jarl Eriksen",
   "module": "dist/rich-text-react.esm.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "@types/react": "^16.9.34",
     "@types/react-dom": "^16.9.7",
@@ -46,5 +49,6 @@
   },
   "dependencies": {
     "@plateo/rich-text-types": "^1.0.0"
-  }
+  },
+  "gitHead": "5b85b5e16e5a837ff07868b04c79faee549e16d8"
 }
