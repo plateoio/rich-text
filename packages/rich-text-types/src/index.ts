@@ -1,5 +1,5 @@
 /**
- * Map of all Plate Rich Text Blocks.
+ * Map of all Plateo Rich Text Blocks.
  */
 export enum BLOCKS {
   Paragraph = 'paragraph',
